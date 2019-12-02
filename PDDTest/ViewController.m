@@ -2,7 +2,7 @@
 //  ViewController.m
 //  PDDTest
 //
-//  Created by LYPC on 2019/9/25.
+//  Created by LYPC on 2019/12/2.
 //  Copyright © 2019 LYPC. All rights reserved.
 //
 
@@ -17,7 +17,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     DLView *dlView = [[DLView alloc] initWithFrame:CGRectMake(10, 150, 250, 250)];
     dlView.backgroundColor = [UIColor orangeColor];
     dlView.dataSource = self;
@@ -25,7 +24,6 @@
     [self.view addSubview:dlView];
     
     [dlView setupUI];
-
     // Do any additional setup after loading the view.
 }
 
